@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+h1, h3 {
+    color: white;
+    padding-top: 2%;
+    padding-down: 2%;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.row {
+    margin: 2%;
+}
+
+.padit {
+    padding: 2%;
+}
+
+.dash-cell {
+    text-align: center;
+}
