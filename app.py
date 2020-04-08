@@ -221,7 +221,7 @@ app.layout = html.Div([
                 html.Div([
                     html.Div([
                         dash_table.DataTable( id='table', columns=[{"name": i, "id":i} for i in Data.columns], data=Data.to_dict('records')),
-                    ], className='card-body')
+                    ], className='card-body table-overflow')
                 ], className='card')
             ], className='col-md-12')
         ], className='row')
