@@ -21,3 +21,7 @@ h1, h3 {
 .dash-cell {
     text-align: center;
 }
+
+.table-overflow {
+    overflow-x: auto;
+}
